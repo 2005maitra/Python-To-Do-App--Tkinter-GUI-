@@ -45,6 +45,10 @@ def edit_todo():
         entry.delete(0, tk.END)
     except IndexError:
         messagebox.showwarning("Selection Error", "Please select a to-do to edit.")
+def exit_app():
+    messagebox.showinfo("Goodbye", "Thank you for using the To-Do App!")
+    window.destroy()
+
 
 window = tk.Tk()
 window.title("To-Do App (Tkinter GUI)")
@@ -67,6 +71,10 @@ edit_btn.pack(pady=2)
 
 complete_btn = tk.Button(window, text="Complete", width=10, command=complete_todo)
 complete_btn.pack(pady=2)
+
+exit_btn = tk.Button(window, text="Exit", width=10, command=exit_app)
+exit_btn.pack(pady=5)
+
 
 
 listbox = tk.Listbox(window, width=50)
