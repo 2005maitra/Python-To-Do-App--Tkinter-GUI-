@@ -13,7 +13,7 @@ A simple and user-friendly desktop To-Do list app built using Python and Tkinter
 ![Add Task](images/Screenshot%20(7).png)
 
 ### Task Completed
-![Completed Task](images/Screenshot%20(9)).png
+![Completed Task](images/Screenshot%20(9).png)
 
 ### Edit Task
 ![Edit Task](images/Screenshot%20(10).png)
